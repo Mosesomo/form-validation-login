@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registering landing page page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/d1e0a0909b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="creat.css">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+       </div>
+       <form action="/action_page.php" method="post">
+        <h3>Register Here with your valid details</h3>
+        
+        <div>
+            <label for="name">Full name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label for="phone number" class="phone">Phone number</label>
+            <input type="digit" id="phone number" value="+254" placeholder="Enter your phone number" required>
+        </div>
+        <div class="gender">
+            Gender
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+        </div>
+
+        <div>
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="Enter your email address" required>
+        </div>
+
+        <div>
+            <label for="birthdate">Birthdate</label>
+            <input type="date" id="birthdate" max="20-05-2023">
+        </div>
+
+        <div>
+            <label for="residence">County of residence</label>
+            <select name="county of residence" id="residence">
+                <option value="nairobi">Nairobi</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Mombasa">Mombasa</option>
+                <option value="Nakuru">Nakuru</option>
+                <option value="kiambu">Kiambu</option>
+                <option value="garissa">Garissa</option>
+                <option value="siaya">Siaya</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="password">Create password</label>
+            <input type="password" id="password" placeholder="create your login password" min="8" required>
+        </div>
+
+        <div>
+            <label for="passworc">Confirm password</label>
+            <input type="password" id="password" placeholder="confirm your login password" max="16" min="8" required>
+        </div>
+       <div>
+        <button>submit</button>
+        <button>reset</button>
+       </div>
+       <a href="login.html" class="login">Done? click here to login</a>
+       <br>
+       <p>You can follow our webpage on linkedln, google,twitter and tiktok. All you need to do is just clicking on the icons below</p>
+
+       <div class="follow">
+          <div class="go"><i class="fa fa-google"></i>Google</div>
+          <div class="twitter"><i class="fa-brands fa-twitter"></i>Twitter</div>
+          <div class="linke"><i class="fa-brands fa-linkedin"></i>Linkedin</div>
+          <div class="tiktok"><i class="fa-brands fa-tiktok"></i>Tiktok</div>
+       </div>
+    </form>
+</body>
+</html>
+</body>
+</html>
